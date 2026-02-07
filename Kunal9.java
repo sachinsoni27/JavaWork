@@ -39,3 +39,24 @@ public class  Kunal9{
         System.out.println("Temperature in Fahrenheit: " + fahrenheit);
     }
 }*/
+/*import java.util.*;
+
+public class Kunal9 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int rem;
+
+        while (n != 0) {
+            rem = n % 10;
+            System.out.println(rem);
+            n = n / 10;   // ✅ MUST be inside loop
+        }
+
+        sc.close();
+    }
+}*/
+
+// input like 456 the out but will be 4,5,6
+    
