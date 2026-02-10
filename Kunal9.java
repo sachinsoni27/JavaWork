@@ -60,3 +60,21 @@ public class Kunal9 {
 
 // input like 456 the out but will be 4,5,6
     
+/*import java.util.*; 
+public class Kunal9{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int row =1;
+        int star=n;
+        while (row<=n) {
+            int i =1;
+            while(i<=star){
+                System.out.print("*");
+                i++;
+            }
+            System.out.println();
+            row++;
+        }
+    }
+*/
